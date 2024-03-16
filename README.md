@@ -2,8 +2,37 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+# Support App
 
+Support App is a web application designed to manage and streamline support cases for your team.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need the following tools:
+
+- Node.js
+- npm
+- A modern web browser
+
+### Installing
+
+1. Clone the repository
+git clone https://github.com/abelmhlanga/support-app.git
+
+
+2. Navigate to the project directory
+cd support-app
+
+
+3. Install dependencies
+npm install
+
+
+4. Start the development server
 ```bash
 npm run dev
 # or
@@ -14,6 +43,28 @@ pnpm dev
 bun dev
 ```
 
+
+The app should now be running on [http://localhost:3000](http://localhost:3000).
+
+## Deployment
+
+To deploy the app, you can use a service like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). Follow their respective documentation for deploying a Next.js application.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+* Abel Mhlanga - *Initial work*
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
